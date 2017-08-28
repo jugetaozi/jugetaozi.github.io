@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title></title>
+    <link rel="stylesheet" href="../css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../css/animate.css"/>
+    <link rel="stylesheet" href="../css/normalize.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <script src="../lib/jquery-2.2.3.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="box-wrapper">
+            <div id="box">
+                <a id="logo" href="javascript:;">
+                    <img src="../img/logo2.png">
+                </a>
+                <h2>举个桃子</h2>
+                <p>CSS权威指南（第三版)</p>
+                <nav id="nav" class="clearfix">
+                    <a class="home" href="/blog"><span>博客</span><i class="fa fa-home fa-2x"></i></a>
+                    <a class="cat" href="">Git</a>
+                    <a class="link" href="">邻居</a>
+                </nav>
+            </div>
+        </div>
+        <footer id="footer">
+            <span>© 2017 <a class="about" href="{{ site.baseurl }}/blog/" data-sitename="">举个桃子</a></span>
+            <a class="github-btn" href="https://github.com/jugetaozi.com}}" title="github" target="_blank"><i class="fa fa-github"></i></a>
+            <a class="weibo-btn" href="http://weibo.com/{{ site.links.weibo }}" title="微博" target="_blank"><i class="fa fa-weibo"></i></a>
+
+            <a class="weixin-btn" href="javascript:;" title="微信"><i class="fa fa-weixin"></i><div class="weixin-qrcode"><img width="200"  src="../img/weixin_qrcode.jpg"></div></a>
+            <a class="email-btn" href="" title="邮箱："><i class="fa fa-envelope"></i></a>
+            <a class="rss-btn" href="" title="rss" target="_blank"><i class="fa fa-rss"></i></a>
+        </footer>
+        <div id="galaxy">
+            <canvas id="canv"></canvas>
+        </div>
+    </div>
+</body>
+</html>
+<script src="../js/galaxy.js"></script>
