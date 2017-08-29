@@ -19,6 +19,7 @@ permalink:         /:title/
 paginate:          7
 paginate_path:     "blog/:num"
 plugins:              [jekyll-paginate]
+port: 4001
 
 kramdown:
   auto_ids:       true
