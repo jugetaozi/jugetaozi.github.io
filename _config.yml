@@ -1,0 +1,82 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title:       "Welcome Myfriends!"
+description: "WuDi's Blog. A front-end web developer who loves design awesome things. Working for Inmotion in Shenzhen, China."
+keywords: "吴迪、举个桃子、jugetaozi、wudi、Wudi's Blog、Front-End Engineer"
+url: http://www.jugetaozi.com # the base hostname & protocol for your site
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Asia/Shanghai
+markdown:          kramdown
+excerpt_separator: <!--more-->
+permalink:         /:title/
+paginate:          7
+paginate_path:     "blog/:num"
+plugins:              [jekyll-paginate]
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  enable_coderay: false
+
+#
+###################################
+# Sass
+####################################
+#
+sass:
+  style: compressed
+
+#
+###################################
+# loading
+####################################
+#
+loading: "http://www.jugetaozi.com/img/loading.gif"
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: 举个桃子
+  avatar: avatar.jpg
+  job: "front-end developer"
+  bio: "一生想做优雅前端"
+  email: 156343782@qq.com
+  disqus-shortname: #username
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: #UA-62251910-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: jugetaozi #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: myanswer123 #username
+  flickr: #username
+  codepen: #username
+  zhihu: #se7en-zone username
