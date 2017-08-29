@@ -1,4 +1,17 @@
-$(function(){
+$(function () {
+    //百度链接提交
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+
     /* ---- particles.js config ---- */
     particlesJS("particles-after-filter", {
         "particles": {
@@ -225,9 +238,10 @@ $(function(){
     // 签名
 
     // 播放器
-    $('#musicSwitch').on('click',function(){
-        $(this).hasClass('active')?$(this).removeClass('active'):$(this).addClass('active');
-        if(!$('#skPlayer').find('audio').length){
+    $('#musicSwitch').on('click', function () {
+        $(this).hasClass('active') ? $(this).removeClass('active') : $(this).addClass('active');
+        // 点击播放
+        if (!$('#skPlayer').find('audio').length) {
             var player = new skPlayer({
                 autoplay: true,
                 music: {
@@ -238,17 +252,18 @@ $(function(){
         }
     });
 
+
     // 图片延迟加载
     $("img.lazy").unveil(1000);
-    $('.post-listing').scroll(function(){
+    $('.post-listing').scroll(function () {
         $(window).trigger('scroll');
     });
 
     // 返回按钮
-    $('a','.back-home').on('click',function(){
-        if(window.history.length > 1){
+    $('a', '.back-home').on('click', function () {
+        if (window.history.length > 1) {
             window.history.back();
-        }else{
+        } else {
             window.location.href = 'http://www.jugetaozi.com';
         }
     });
