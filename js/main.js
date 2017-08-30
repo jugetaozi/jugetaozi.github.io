@@ -267,4 +267,20 @@ $(function () {
             window.location.href = 'http://www.jugetaozi.com';
         }
     });
+
+    //运行时间计时
+    (function () {
+        var birthday = new Date(2017, 7, 17);
+        running();
+        setInterval(running, 1000);
+        function running() {
+            var today = new Date();
+            var delta = parseInt(today - birthday);
+            var DD = Math.floor(delta / 86400000);
+            var HH = Math.floor(delta % 86400000 / (1000 * 3600));
+            var MM = Math.floor(delta % 86400000 % (1000 * 3600) / (1000 * 60));
+            var SS = Math.floor(delta % 86400000 % (1000 * 3600) % (1000 * 60) / 1000);
+            $("#runningTime").text(DD + '天' + HH + '小时' + MM + '分' + SS + '秒');
+        }
+    }())
 });

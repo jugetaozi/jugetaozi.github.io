@@ -25,7 +25,9 @@ html {
   }
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -62,20 +64,29 @@ canvas {
 }
 
 #logo {
-  img{
+  img {
     border-radius: 50%;
   }
-  &:hover{
-    @keyframes shake{
-    0% { margin-right: 0; }
-    25% { margin-right: 10px; }
-    50% { margin-right: 0; }
-    75% { margin-right: -10px; }
-    100% { margin-right: 0; }
-  }
+  &:hover {
+    @keyframes shake {
+      0% {
+        margin-right: 0;
+      }
+      25% {
+        margin-right: 10px;
+      }
+      50% {
+        margin-right: 0;
+      }
+      75% {
+        margin-right: -10px;
+      }
+      100% {
+        margin-right: 0;
+      }
+    }
     animation: shake 0.07s steps(6);
     animation-iteration-count:4;
-
   }
 }
 
@@ -103,7 +114,6 @@ canvas {
   width: 170px;
   height: 50px;
   margin: 0 auto;
-
   @media screen and (min-width: 768px) {
     &:hover {
       .cat {
@@ -121,30 +131,25 @@ canvas {
           display: inline;
         }
       }
-
       a:not(.home) {
         opacity: 1;
       }
     }
   }
-
   @media screen and (max-width: 768px) {
     .cat {
       right: 120px;
     }
-
     .link {
       right: 0;
       top: 0;
     }
   }
-
   a {
     display: block;
     height: 50px;
     line-height: 50px;
-    width: 50px;
-    // background-color: rgba(240,240,240,0.95);
+    width: 50px; // background-color: rgba(240,240,240,0.95);
     border: 1px solid #666;
     border-radius: 50%;
     color: #666;
@@ -154,7 +159,6 @@ canvas {
     z-index: 1;
     text-align: center;
     transition: all .8s;
-
     @media screen and (min-width: 768px) {
       &:not(.home) {
         opacity: 0;
@@ -162,7 +166,6 @@ canvas {
     }
     &.home {
       z-index: 2;
-
       i {
         margin-top: 9px;
         margin-left: 1px;
@@ -193,34 +196,28 @@ canvas {
   width: 100%;
   padding: 0 20px 20px 0;
   color: #aaa;
-
   a.about {
     color: #aaa;
     width: 80px;
     display: inline-block;
   }
-
-  > a {
+  >a {
     margin-left: 10px;
     font-size: 1.8rem;
     display: inline-block;
     color: #647993;
     transition: transform .2s ease-in-out;
-
     &:hover {
       color: #2d3e4a;
     }
-
     &.weixin-btn {
       position: relative;
-
       &:hover .weixin-qrcode {
         bottom: 80px;
         opacity: 1;
         visibility: visible;
       }
     }
-
     @media screen and (min-width: 768px) {
       &:hover {
         transform: translateY(-2px);
@@ -243,4 +240,7 @@ canvas {
       border-radius: 10px;
     }
   }
+}
+#footer.active a.about{
+  font-size: 16px;
 }

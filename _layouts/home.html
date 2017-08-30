@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
-    <title></title>
-    <link rel="stylesheet" href="../css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="../css/animate.css"/>
-    <link rel="stylesheet" href="../css/normalize.css"/>
-    <link rel="stylesheet" href="../css/index.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>举个桃子的小站</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.keywords }}{% endif %}">
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/animate.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/index.css" />
     <script src="../lib/jquery-2.2.3.min.js"></script>
 </head>
+
 <body>
     <div id="container">
         <div id="box-wrapper">
@@ -19,7 +22,7 @@
                     <img src="../img/logo2.png">
                 </a>
                 <h2>举个桃子</h2>
-                <p>CSS权威指南（第三版)</p>
+                <p>Welcome Myfriends!</p>
                 <nav id="nav" class="clearfix">
                     <a class="home" href="blog"><span>博客</span><i class="fa fa-home fa-2x"></i></a>
                     <a class="cat" target="_blank" href="https://github.com/{{ site.owner.github }}">Git</a>
@@ -28,18 +31,18 @@
             </div>
         </div>
         <footer id="footer">
-            <span>© 2017 <a class="about" href="{{ site.baseurl }}/blog/" data-sitename="">举个桃子</a></span>
+            <span>© 2017 <a class="about" href="{{ site.baseurl }}/blog/" data-sitename="{{ site.owner.name }}">{{ site.owner.name }}</a></span>
             <a class="github-btn" href="https://github.com/jugetaozi" title="github" target="_blank"><i class="fa fa-github"></i></a>
             <a class="weibo-btn" href="http://weibo.com/myanswer123" title="微博" target="_blank"><i class="fa fa-weibo"></i></a>
             <a class="weixin-btn" href="javascript:;" title="微信"><i class="fa fa-weixin"></i><div class="weixin-qrcode"><img width="200"  src="../img/weixin_qrcode.jpg"></div></a>
             <a class="email-btn" href="mailto:156343782@qq.com" title="邮箱："><i class="fa fa-envelope"></i></a>
-            <a class="rss-btn" href="" title="rss" target="_blank"><i class="fa fa-rss"></i></a>
         </footer>
         <div id="galaxy">
             <canvas id="canv"></canvas>
         </div>
     </div>
 </body>
+
 </html>
 <script src="../js/galaxy.js"></script>
 <script>
@@ -55,4 +58,11 @@
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(bp, s);
     })();
+
+    $('#footer').hover(function() {
+        var $this = $(this);
+        var $about = $this.find('.about');
+        $this.toggleClass('active');
+        $this.hasClass('active') ? $about.text('About me') : $about.text($about.attr('data-sitename'));
+    });
 </script>
