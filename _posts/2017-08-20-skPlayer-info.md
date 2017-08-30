@@ -1,28 +1,19 @@
 ---
 layout: post
 title: skPlayer (已支持拉取网易云音乐歌单)
-excerpt: "一款超好看+极简的HTML5音乐播放器。"
+excerpt: "一款极简的HTML5音乐播放器。"
 categories: Plugin
 tag: Plugin
 comments: true
 ---
 
-## 更新提醒！
-由于2016/12/14服务器到期忘记续费，导致接口发生变化，烦请更新源文件以正常使用。  
-竟然有同学想要捐助，在底部列出了捐助支付方式，有想支持接口服务器的，随意捐助数目。
-
 ## 前言
 [![npm](https://img.shields.io/npm/v/skplayer.svg)]() [![npm](https://img.shields.io/npm/l/skplayer.svg?maxAge=2592000)]() [![npm](https://img.shields.io/npm/dt/skplayer.svg)]() [![npm](https://img.shields.io/badge/made%20by-Scott-orange.svg)]()  
-a simple HTML5 music player  
-一款基于HTML5的web音乐播放器  
-其实主要原因是为了将博客以前使用的网易云音乐外链播放器换掉，结果不知不觉就有了自己的播放器，哈哈哈(2333)，详见右下角。  
-old：  
-<img src="{{ site.loading }}" data-src="/img/skPlayer/old.png" class="lazy"><br>
-new：  
-<img src="{{ site.loading }}" data-src="/img/skPlayer/new.png" class="lazy"><br>
 
-## Demo
-[在线预览](http://www.chengfeilong.com/skPlayer/)  
+
+a simple HTML5 music player  
+一款极简的HTML5音乐播放器
+
 预览：  
 ![demo](http://o9vplcp9o.bkt.clouddn.com/demo.gif)  
 多曲列表模式预览：  
@@ -110,14 +101,12 @@ skPlayer({
 * 滚动歌词
 * 兼容移动端
 
-## Github
-[Github](https://github.com/wangpengfei15975/skPlayer)  
-[![GitHub stars](https://img.shields.io/github/stars/wangpengfei15975/skPlayer.svg?style=social&label=Star)](https://github.com/wangpengfei15975/skPlayer)
-
-## 捂脸
-竟然有同学想给我捐助，鉴于服务器到期的事情不好意思了，这里列上捐助方式吧，有愿意捐助的朋友就当支持一下歌单拉取服务器。  
-支付宝：<img src="{{ site.loading }}" data-src="/img/skPlayer/zfb.jpg" class="lazy">
-微信：<img src="{{ site.loading }}" data-src="/img/skPlayer/wx.jpg" class="lazy">
-
 ## 最后
 UI参考：[dribbble](https://dribbble.com/shots/1233843-Ui-Kit-Rainy-Season)
+
+## 赞助
+
+如果您觉得这篇文章对您有用,可以请作者喝一杯咖啡~~
+
+微信：<img src="{{site.url}}/img/images/wx.png" width="200" height="200" alt="举个桃子的微信">
+支付宝：<img src="{{site.url}}/img/images/zfb.png"  width="200" height="200" alt="举个桃子的支付宝">
