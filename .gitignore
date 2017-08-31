@@ -1,6 +1,7 @@
 _site
 .sass-cache
 _drafts
+.diea
 
 .idea/.name
 .idea/encodings.xml

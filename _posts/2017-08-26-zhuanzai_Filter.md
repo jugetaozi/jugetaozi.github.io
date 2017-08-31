@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSS3 Filter的十种特效
+title: (转载) CSS3 Filter的十种特效
 excerpt: "不整不知道呀，一整才让我感到吃惊，太强大了。"
 tag: CSS
 categories: 转载

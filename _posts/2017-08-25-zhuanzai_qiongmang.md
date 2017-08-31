@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 穷忙的人生
+title: (转载) 穷忙的人生
 excerpt: "如果你是穷人，80%的概率以后你还是穷人；如果你是富人，84%的概率是以后你还是富人。"
 categories: 转载
 comments: true

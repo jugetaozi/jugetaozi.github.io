@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 转载技术决定历史
+title: (转载) 技术决定历史
 excerpt: "长期来看，政治和经济都不太重要，影响不了趋势，真正起决定性作用的是技术。"
 categories: 转载
 comments: true
