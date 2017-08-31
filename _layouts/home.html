@@ -21,7 +21,7 @@
                 <a id="logo" href="javascript:;">
                     <img src="../img/logo2.png" alt="举个桃子">
                 </a>
-                 <h1 class="h1Seo">举个桃子的个人小站</h1> 
+                <h1 class="h1Seo">举个桃子的个人小站</h1>
                 <h2>举个桃子</h2>
                 <p>Welcome Myfriends!</p>
                 <nav id="nav" class="clearfix">
@@ -49,6 +49,7 @@
 <script>
     //百度链接提交
     (function () {
+
         var bp = document.createElement('script');
         var curProtocol = window.location.protocol.split(':')[0];
         if (curProtocol === 'https') {
@@ -59,11 +60,11 @@
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(bp, s);
     })();
-
-    $('#footer').hover(function() {
+    $('#footer').hover(function () {
         var $this = $(this);
         var $about = $this.find('.about');
         $this.toggleClass('active');
         $this.hasClass('active') ? $about.text('About me') : $about.text($about.attr('data-sitename'));
     });
+    
 </script>

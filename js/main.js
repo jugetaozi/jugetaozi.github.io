@@ -273,6 +273,7 @@ $(function () {
         var birthday = new Date(2017, 7, 17);
         running();
         setInterval(running, 1000);
+
         function running() {
             var today = new Date();
             var delta = parseInt(today - birthday);
