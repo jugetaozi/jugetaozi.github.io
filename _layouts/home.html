@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/index.css" />
     <script src="../lib/jquery-2.2.3.min.js"></script>
+    <script src="{{ site.url }}/js/baidu-index.js"></script>
 </head>
 
 <body>
@@ -47,24 +48,10 @@
 </html>
 <script src="../js/galaxy.js"></script>
 <script>
-    //百度链接提交
-    (function () {
-
-        var bp = document.createElement('script');
-        var curProtocol = window.location.protocol.split(':')[0];
-        if (curProtocol === 'https') {
-            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-        } else {
-            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-        }
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(bp, s);
-    })();
     $('#footer').hover(function () {
         var $this = $(this);
         var $about = $this.find('.about');
         $this.toggleClass('active');
         $this.hasClass('active') ? $about.text('About me') : $about.text($about.attr('data-sitename'));
     });
-    
 </script>

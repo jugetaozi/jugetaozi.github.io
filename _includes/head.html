@@ -2,7 +2,6 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="keywords" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.keywords }}{% endif %}">
@@ -21,4 +20,5 @@
   <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
   <!-- 32x32 -->
   <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
+  <script src="{{ site.url }}/js/baidu-blog.js"></script>
 </head>
