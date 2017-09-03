@@ -225,21 +225,35 @@ $(function () {
     // 签名
 
     // 播放器
-    $('#musicSwitch').on('click', function () {
-        $(this).hasClass('active') ? $(this).removeClass('active') : $(this).addClass('active');
-        // 点击播放
-        if (!$('#skPlayer').find('audio').length) {
-            var player = new skPlayer({
-                autoplay: true,
-                music: {
-                    type: 'cloud',
-                    source: 896988384
-                }
-            });
+    ;
+    (function (window) {
+        var playStart = null;
+        
+        $('#musicSwitch').on('click', function () {
+            window.sessionStorage.setItem('playSession', 'true');
+            $(this).hasClass('active') ? $(this).removeClass('active') : $(this).addClass('active');
+            // 点击播放
+            if (!$('#skPlayer').find('audio').length) {
+                var player = new skPlayer({
+                    autoplay: true,
+                    music: {
+                        type: 'cloud',
+                        source: 896988384
+                    }
+                });
+            }
+            clearTimeout(playStart);
+        });
+        //第一次进入的时候模拟点击
+        if (window.sessionStorage.getItem('playSession') == undefined) {
+            $('#musicSwitch').trigger('click');
+            playStart=setTimeout(function (){
+                $('#musicSwitch').trigger('click');
+            },5000)
         }
-    });
+    }(window));
 
-
+    
     // 图片延迟加载
     $("img.lazy").unveil(1000);
     $('.post-listing').scroll(function () {
