@@ -7,6 +7,39 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 
+//统计home点击量
+function homeClick() {
+  _hmt.push(['_trackEvent', "social-link-btn", "click", "home-click"]);
+}
+//统计left按钮点击量
+function leftClick() {
+  _hmt.push(['_trackEvent', "social-link-btn", "click", "left-click"]);
+}
+//统计right按钮点击量
+function rightClick() {
+  _hmt.push(['_trackEvent', "social-link-btn", "click", "right-click"]);
+}
+//统计about点击量
+function aboutClick() {
+  _hmt.push(['_trackEvent', "social-link-btn", "click", "about-click"]);
+}
+//统计github点击量
+function githubClick() {
+  _hmt.push(['_trackEvent', "social-link-btn", "click", "github-click"]);
+}
+//统计微博点击量
+function weiboClick() {
+  _hmt.push(['_trackEvent', "social-link-btn", "click", "weibo-click"]);
+}
+//统计weixin点击量
+function weixinClick() {
+  _hmt.push(['_trackEvent', "social-link-btn", "click", "weixin-click"]);
+}
+//统计email点击量
+function emailClick() {
+  _hmt.push(['_trackEvent', "social-link-btn", "click", "email-click"]);
+}
+
 //百度链接提交
 (function () {
   var bp = document.createElement('script');

@@ -26,18 +26,18 @@
                 <h2>举个桃子</h2>
                 <p>Welcome Myfriends!</p>
                 <nav id="nav" class="clearfix">
-                    <a class="home" href="{{ site.url }}/blog/"><span>博客</span><i class="fa fa-home fa-2x"></i></a>
-                    <a class="cat" target="_blank" href="https://github.com/{{ site.owner.github }}">Git</a>
-                    <a class="link" href="{{ site.url }}/links/">邻居</a>
+                    <a class="home" onclick="homeClick()" href="{{ site.url }}/blog/"><span>博客</span><i class="fa fa-home fa-2x"></i></a>
+                    <a class="cat"  onclick="leftClick()"  target="_blank" href="https://github.com/{{ site.owner.github }}">Git</a>
+                    <a class="link"  onclick="rightClick()"  href="{{ site.url }}/links/">邻居</a>
                 </nav>
             </div>
         </div>
         <footer id="footer">
-            <span>© 2017 <a class="about" href="{{ site.baseurl }}/blog/" data-sitename="{{ site.owner.name }}">{{ site.owner.name }}</a></span>
-            <a class="github-btn" href="https://github.com/jugetaozi" title="github" target="_blank"><i class="fa fa-github"></i></a>
-            <a class="weibo-btn" href="http://weibo.com/myanswer123" title="微博" target="_blank"><i class="fa fa-weibo"></i></a>
-            <a class="weixin-btn" href="javascript:;" title="微信"><i class="fa fa-weixin"></i><div class="weixin-qrcode"><img width="200" alt="LOGO"  src="../img/weixin_qrcode.jpg"></div></a>
-            <a class="email-btn" href="mailto:156343782@qq.com" title="邮箱："><i class="fa fa-envelope"></i></a>
+            <span>© 2017 <a class="about" onclick="aboutClick()" href="{{ site.baseurl }}/blog/" data-sitename="{{ site.owner.name }}">{{ site.owner.name }}</a></span>
+            <a class="github-btn" onclick="githubClick()"  href="https://github.com/jugetaozi" title="github" target="_blank"><i class="fa fa-github"></i></a>
+            <a class="weibo-btn" onclick="weiboClick()"  href="http://weibo.com/myanswer123" title="微博" target="_blank"><i class="fa fa-weibo"></i></a>
+            <a class="weixin-btn" onclick="weixinClick()"  href="javascript:;" title="微信"><i class="fa fa-weixin"></i><div class="weixin-qrcode"><img width="200" alt="LOGO"  src="../img/weixin_qrcode.jpg"></div></a>
+            <a class="email-btn" onclick="emailClick()"  href="mailto:156343782@qq.com" title="邮箱："><i class="fa fa-envelope"></i></a>
         </footer>
         <div id="galaxy">
             <canvas id="canv"></canvas>
