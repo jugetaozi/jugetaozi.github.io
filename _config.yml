@@ -10,7 +10,7 @@ url: http://www.jugetaozi.com # the base hostname & protocol for your site
 ###################################
 # Jekyll configuration
 ####################################
-#
+# 
 timezone:          Asia/Shanghai
 markdown:          kramdown
 excerpt_separator: <!--more-->
