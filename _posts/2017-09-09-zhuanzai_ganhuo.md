@@ -67,7 +67,7 @@ comments: true
 
 **但这种短期缓解“知识焦虑”的办法，其实暗含重重陷阱。**
 
-![img](http://mmbiz.qpic.cn/mmbiz_jpg/379vzqrE49YAVLL2Gw277bhFHAcLjicWO9AOxhLEJQO1okWoiczeXohGOwCjbxtw9FssOunXcDVzqQiamfCtfOLOw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![img](http://mmbiz.qpic.cn/mmbiz_jpg/379vzqrE49YAVLL2Gw277bhFHAcLjicWO9AOxhLEJQO1okWoiczeXohGOwCjbxtw9FssOunXcDVzqQiamfCtfOLOw/640)
 
 △
 
@@ -115,7 +115,7 @@ comments: true
 
 这么一来，用注意力最不集中的碎片时间，去记知识浓度最高的“干货”，记不住自然是顺理成章的事情了。
 
-![img](http://mmbiz.qpic.cn/mmbiz_jpg/379vzqrE49YAVLL2Gw277bhFHAcLjicWOnPzfjzZZoicgYWYia5siaoRTQyz7zIRFs809QrxzVkCzRsUa5gUwgC4IQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![img](http://mmbiz.qpic.cn/mmbiz_jpg/379vzqrE49YAVLL2Gw277bhFHAcLjicWOnPzfjzZZoicgYWYia5siaoRTQyz7zIRFs809QrxzVkCzRsUa5gUwgC4IQ/640)
 
 △
 
@@ -155,7 +155,7 @@ comments: true
 
 **短期集中地接受信息与长期碎片化知识都会令你只看到知识的片面，且快速遗忘。最可怕的是，长此以往，你很难进行深度的长期的思考，你的思维会逐渐被禁锢。**
 
-![img](http://mmbiz.qpic.cn/mmbiz_jpg/379vzqrE49YAVLL2Gw277bhFHAcLjicWOodANbgXTa2pg75Ko5ic7eklUJKQXlkbvTFGmXibHOgW0kbNlAXLLyPHA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![img](http://mmbiz.qpic.cn/mmbiz_jpg/379vzqrE49YAVLL2Gw277bhFHAcLjicWOodANbgXTa2pg75Ko5ic7eklUJKQXlkbvTFGmXibHOgW0kbNlAXLLyPHA/640)
 
 ****
 
@@ -237,7 +237,7 @@ comments: true
 
 ****
 
-![img](http://mmbiz.qpic.cn/mmbiz_jpg/379vzqrE49YAVLL2Gw277bhFHAcLjicWO0GkVa4LQyib0hI1w5J0aqnKfJLpNoSBtl8NOFsbQ6dl8NZlwMfC2JQA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![img](http://mmbiz.qpic.cn/mmbiz_jpg/379vzqrE49YAVLL2Gw277bhFHAcLjicWO0GkVa4LQyib0hI1w5J0aqnKfJLpNoSBtl8NOFsbQ6dl8NZlwMfC2JQA/640)
 
 △
 
@@ -267,7 +267,7 @@ comments: true
 
 小到生活技巧，大到人生哲学，都是一样的道理。
 
-![img](http://mmbiz.qpic.cn/mmbiz_jpg/379vzqrE49YAVLL2Gw277bhFHAcLjicWOzpENfQVkduf5akTB9vzFW7h7XicNTibbzibj8iaGW6UZGveMSAic6iaSFPaw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![img](http://mmbiz.qpic.cn/mmbiz_jpg/379vzqrE49YAVLL2Gw277bhFHAcLjicWOzpENfQVkduf5akTB9vzFW7h7XicNTibbzibj8iaGW6UZGveMSAic6iaSFPaw/640)
 
 △
 
@@ -295,7 +295,7 @@ comments: true
 
 ****
 
-![img](http://mmbiz.qpic.cn/mmbiz_jpg/379vzqrE49YAVLL2Gw277bhFHAcLjicWOicXX29Tt3skdhqhxgTIZVUY7616dKXXCjkJBclZEqXCJnDkkKtDGLSA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![img](http://mmbiz.qpic.cn/mmbiz_jpg/379vzqrE49YAVLL2Gw277bhFHAcLjicWOicXX29Tt3skdhqhxgTIZVUY7616dKXXCjkJBclZEqXCJnDkkKtDGLSA/640)
 
 \- END -
 （正文完）转载自[谈心社](http://mp.weixin.qq.com/s/O2UU3aGozZyipig6R_GG5w)
