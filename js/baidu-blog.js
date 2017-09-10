@@ -19,6 +19,10 @@ function weiboClick() {
 function emailClick() {
   _hmt.push(['_trackEvent', "social-link-btn", "click", "email-click"]);
 }
+//统计dribbble点击量
+function dribbbleClick() {
+  _hmt.push(['_trackEvent', "social-link-btn", "click", "dribbble-click"]);
+}
 //百度链接提交
 (function () {
   var bp = document.createElement('script');

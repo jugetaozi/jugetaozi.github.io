@@ -11,7 +11,7 @@
     {% if author.github %}<li><a href="http://github.com/{{ author.github }}" onclick="githubClick();" class="social-link-item" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>{% endif %}
     {% if author.stackoverflow %}<li><a href="http://stackoverflow.com/users/{{ author.stackoverflow }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-stack-overflow"></i></a></li>{% endif %}
     {% if author.lastfm %}<li><a href="http://lastfm.com/user/{{ author.lastfm }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-music"></i></a></li>{% endif %}
-    {% if author.dribbble %}<li><a href="http://dribbble.com/{{ author.dribbble }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-dribbble"></i></a></li>{% endif %}
+    {% if author.dribbble %}<li><a href="http://dribbble.com/{{ author.dribbble }}" onclick="dribbbleClick();" class="social-link-item" target="_blank"><i class="fa fa-fw fa-dribbble"></i></a></li>{% endif %}
     {% if author.pinterest %}<li><a href="http://www.pinterest.com/{{ author.pinterest }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-pinterest"></i></a></li>{% endif %}
     {% if author.foursquare %}<li><a href="http://foursquare.com/{{ author.foursquare }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-foursquare"></i></a></li>{% endif %}
     {% if author.steam %}<li><a href="http://steamcommunity.com/id/{{ author.steam }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-steam"></i></a></li>{% endif %}
