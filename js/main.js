@@ -271,7 +271,7 @@ $(function () {
 
     //运行时间计时
     (function () {
-        var birthday = new Date(2017, 7, 17);
+        var birthday = new Date(2016, 7, 17);
         running();
         setInterval(running, 1000);
 
