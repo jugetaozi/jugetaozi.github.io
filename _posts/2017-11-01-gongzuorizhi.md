@@ -39,8 +39,7 @@ export {
 2、`{ name: 'app' }`是一个对象,` export default { name: 'app' }`是es6 module语法, 导出这个对象. 
 [vue组件的name属性主要用于方便debug](https://www.vue-js.com/topic/58b6771616e85e176c177310)
 
-
--------
+---
 
 3、.sync修饰符 : 在element UI 中的 模态框 必须要使用.sync修饰符将组件的状态同步 还有一种情况是当父子组件的双向数据绑定 [当子组件需要改变props里面的值的时候。](https://cn.vuejs.org/v2/guide/components.html#sync-修饰符)
 
