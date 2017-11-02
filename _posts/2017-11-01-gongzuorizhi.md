@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 2017-10工作日志"
-excerpt: "前端小白的ES6和vue采坑之旅"
+title: "2017-10  工作日志"
+excerpt: "前端小白的Es6和vue采坑之旅"
 categories: code&nbsp;share
 comments: true
 ---
@@ -9,9 +9,9 @@ comments: true
 
 1、
 
-按 es6 的规范 import * as obj from "xxx" 会将 "xxx" 中所有 export 导出的内容组合成一个对象返回。
+> 按 es6 的规范 import * as obj from "xxx" 会将 "xxx" 中所有 export 导出的内容组合成一个对象返回。
 [如果都使用 es6 的规范，这个是很明确的。](http://es6.ruanyifeng.com/#docs/module#export-命令)
----
+
 ```
 export命令除了输出变量，还可以输出函数或类（class）。
 
@@ -36,20 +36,28 @@ export {
 
 需要特别注意的是，export命令规定的是对外的接口，必须与模块内部的变量建立一一对应关系
 
+---
+
 2、
 
-`{ name: 'app' }`是一个对象,` export default { name: 'app' }`是es6 module语法, 导出这个对象. 
+> `{ name: 'app' }`是一个对象,` export default { name: 'app' }`是es6 module语法, 导出这个对象. 
 [vue组件的name属性主要用于方便debug. ](https://www.vue-js.com/topic/58b6771616e85e176c177310)
 
+---
+
 3、
-.sync修饰符 : 在element UI 中的 模态框 必须要使用.sync修饰符将组件的状态同步 还有一种情况是当父子组件的双向数据绑定 [当子组件需要改变props里面的值的时候。](https://cn.vuejs.org/v2/guide/components.html#sync-修饰符)
+
+> .sync修饰符 : 在element UI 中的 模态框 必须要使用.sync修饰符将组件的状态同步 还有一种情况是当父子组件的双向数据绑定 [当子组件需要改变props里面的值的时候。](https://cn.vuejs.org/v2/guide/components.html#sync-修饰符)
+
+---
 
 4、
 
-vue中路径加上./ 是相对路径 当前目录.  如果不加 以src/为根目录  根目录可以在配置文件中定义 webpack.base.conf.js种定义src下的各文件路径的解析
+> vue中路径加上./ 是相对路径 当前目录.  如果不加 以src/为根目录  根目录可以在配置文件中定义 webpack.base.conf.js种定义src下的各文件路径的解析
 
 5、 
-vue-cli搭建的目录结构中的config 文件
+
+> vue-cli搭建的目录结构中的config 文件
 ```
 module.exports = {
   // 构建产品时使用的配置
@@ -109,15 +117,22 @@ module.exports = {
 ```
 6、
 
-$route.matched 和 params query 的演示 http://www.cnblogs.com/Leo_wl/p/5702350.html
+> $route.matched 和 params query 的[演示](http://www.cnblogs.com/Leo_wl/p/5702350.html)
+
+---
 
 7、
-...ES6拓展运算符 利用...解构数组和对象
+
+> ...ES6拓展运算符 利用...解构数组和对象
 [扩展运算符的应用](http://blog.csdn.net/qq_30100043/article/details/53391308)
+
+---
 
 8、
 
-[vue-router 的一些技术点总结  ](http://www.cnblogs.com/ang-/p/7082291.html)
+> [vue-router 的一些技术点总结  ](http://www.cnblogs.com/ang-/p/7082291.html)
+
+---
 
 9、
 
@@ -130,9 +145,11 @@ $route.matched 和 params query 的演示 http://www.cnblogs.com/Leo_wl/p/570235
 
 > [props中可以设置required : 必须提供字段  default  可选字段 有默认值](https://segmentfault.com/q/1010000006867564/a-1020000006867611)
 
+---
+
 10、
 
-可以把数组传给 :class  结合三元表达式 
+> 可以把数组传给 :class  结合三元表达式 
 ```
 <button 
 class="btn" 
@@ -140,10 +157,13 @@ class="btn"
 ></button>
 ```
 
+---
+
 11、
 
-深度watch：   watch一个对象  对象的属性值改变了 递归检查改变  
+> 深度watch：   watch一个对象  对象的属性值改变了 递归检查改变  
 ```
+
 let stepDetail = {
   age = 18
 }
@@ -160,21 +180,34 @@ stepDetail.age = 20  // console.log('stepDetail属性改变了')
 如果为浅监听 
 用.方法为对象赋值 不会被监听到
 
+---
+
 12、 
 
 >深拷贝一个数组 可以使用 [].concat(arr) 的方法实现
 
+---
+
 13、 
+
 >vue 数据绑定的对象 如果绑定的是属性  那么属性的读写会触发双向绑定
 >@keyup.enter 是用来监听回车事件  在element-ui种需要.native添加原生监听
 >promise 的链式调用  then需要返回  promise resolve/reject   传递给下一个then    在then里面如果用定时  不能单纯返回 resolve
 >如果在change事件中需要默认传递的参数  在参数上用$event代替即可
 
+---
+
 14、 
->当子组件接受到父组件Props传来的值时，不能用v-model双向绑定，如果需要同步更新，需要在子组件内部重新、构建一个组件域，与外界解耦 ， [通过emit(update:foo,params) 与.sync 实现双向绑定](http://blog.csdn.net/quanwuhui/article/details/56675407)
+
+- 当子组件接受到父组件Props传来的值时，不能用v-model双向绑定，如果需要同步更新，需要在子组件内部重新、构建一个组件域，与外界解耦 ， [通过emit(update:foo,params) 与.sync 实现双向绑定](http://blog.csdn.net/quanwuhui/article/details/56675407)
+
+---
 
 15、
+
 computed watch 要用  匿名函数 箭头函数的this.指向全局vm对象
+
+---
 
 (正文完)商业转载请联系作者获得授权,非商业转载请注明[出处](http://www.jugetaozi.com/blog/gulp-info/)。
 
