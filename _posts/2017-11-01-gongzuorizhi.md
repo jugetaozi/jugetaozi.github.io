@@ -8,7 +8,7 @@ comments: true
 # 10月工作日志
 
 1、按 es6 的规范 import * as obj from "xxx" 会将 "xxx" 中所有 export 导出的内容组合成一个对象返回。
-[如果都使用 es6 的规范，这个是很明确的。](http://es6.ruanyifeng.com/#docs/module#export-命令)
+[如果都使用 es6 的规范，这个是很明确的。](https://es6.ruanyifeng.com/#docs/module#export-命令)
 
 ```
 export命令除了输出变量，还可以输出函数或类（class）。
@@ -59,7 +59,7 @@ module.exports = {
     env: require('./prod.env'),
     // html入口文件
     index: path.resolve(__dirname, '../dist/index.html'),
-    // 产品文件的存放路径[详情见](http://javascript.ruanyifeng.com/nodejs/path.html#toc1)
+    // 产品文件的存放路径[详情见](https://javascript.ruanyifeng.com/nodejs/path.html#toc1)
     assetsRoot: path.resolve(__dirname, '../dist'),
     // 二级目录，存放静态资源文件的目录，位于dist文件夹下
     assetsSubDirectory: 'static',
@@ -111,18 +111,18 @@ module.exports = {
 
 ---
 
-6、$route.matched 和 params query 的[演示](http://www.cnblogs.com/Leo_wl/p/5702350.html)
+6、$route.matched 和 params query 的[演示](https://www.cnblogs.com/Leo_wl/p/5702350.html)
 
 ---
 
 
 7、...ES6拓展运算符 利用...解构数组和对象
-[扩展运算符的应用](http://blog.csdn.net/qq_30100043/article/details/53391308)
+[扩展运算符的应用](https://blog.csdn.net/qq_30100043/article/details/53391308)
 
 ---
 
 
-8、[vue-router 的一些技术点总结  ](http://www.cnblogs.com/ang-/p/7082291.html)
+8、[vue-router 的一些技术点总结  ](https://www.cnblogs.com/ang-/p/7082291.html)
 
 ---
 
@@ -178,7 +178,7 @@ stepDetail.age = 20  // console.log('stepDetail属性改变了')
 
 ---
 
-14、当子组件接受到父组件Props传来的值时，不能用v-model双向绑定，如果需要同步更新，需要在子组件内部重新、构建一个组件域，与外界解耦 ， [通过emit(update:foo,params) 与.sync 实现双向绑定](http://blog.csdn.net/quanwuhui/article/details/56675407)
+14、当子组件接受到父组件Props传来的值时，不能用v-model双向绑定，如果需要同步更新，需要在子组件内部重新、构建一个组件域，与外界解耦 ， [通过emit(update:foo,params) 与.sync 实现双向绑定](https://blog.csdn.net/quanwuhui/article/details/56675407)
 
 ---
 

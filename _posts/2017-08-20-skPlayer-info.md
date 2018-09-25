@@ -15,11 +15,11 @@ a simple HTML5 music player
 一款极简的HTML5音乐播放器
 
 预览：  
-![demo](http://o9vplcp9o.bkt.clouddn.com/demo.gif)  
+![demo](https://o9vplcp9o.bkt.clouddn.com/demo.gif)
 多曲列表模式预览：  
-![demo](http://o9vplcp9o.bkt.clouddn.com/demo_mutil.jpg)  
+![demo](https://o9vplcp9o.bkt.clouddn.com/demo_mutil.jpg)
 red主题预览：  
-![demo](http://o9vplcp9o.bkt.clouddn.com/demo_red.jpg)
+![demo](https://o9vplcp9o.bkt.clouddn.com/demo_red.jpg)
 
 ## 使用方法
 方式1：NPM  
@@ -54,10 +54,10 @@ npm install skplayer
 //无列表单曲模式
 skPlayer({
     music:{
-        src:'http://o9vplcp9o.bkt.clouddn.com/music.mp3',//音乐文件，必填
+        src:'https://o9vplcp9o.bkt.clouddn.com/music.mp3',//音乐文件，必填
         name:'打呼',//歌曲名称，必填
         author:'潘玮柏&杨丞琳',//歌手，必填
-        cover:'http://o9vplcp9o.bkt.clouddn.com/cover.jpg'//专辑封面，必填
+        cover:'https://o9vplcp9o.bkt.clouddn.com/cover.jpg'//专辑封面，必填
     },
     //loop:true 是否单曲循环，选填
     //theme:'red' 切换red主题，选填
@@ -66,22 +66,22 @@ skPlayer({
 skPlayer({
     music:[
         {
-            src:'http://o9vplcp9o.bkt.clouddn.com/Solitude.mp3',//音乐文件，必填
+            src:'https://o9vplcp9o.bkt.clouddn.com/Solitude.mp3',//音乐文件，必填
             name:'Solitude',//歌曲名称，必填
             author:'Re:plus',//歌手，必填
-            cover:'http://o9vplcp9o.bkt.clouddn.com/Solitude_cover.jpg'//专辑封面，必填
+            cover:'https://o9vplcp9o.bkt.clouddn.com/Solitude_cover.jpg'//专辑封面，必填
         },
         {
-            src:'http://o9vplcp9o.bkt.clouddn.com/CountingStars.mp3',
+            src:'https://o9vplcp9o.bkt.clouddn.com/CountingStars.mp3',
             name:'Counting Stars',
             author:'OneRepublic',
-            cover:'http://o9vplcp9o.bkt.clouddn.com/CountingStars_cover.jpg'
+            cover:'https://o9vplcp9o.bkt.clouddn.com/CountingStars_cover.jpg'
         },
         {
-            src:'http://o9vplcp9o.bkt.clouddn.com/music.mp3',
+            src:'https://o9vplcp9o.bkt.clouddn.com/music.mp3',
             name:'打呼',
             author:'潘玮柏&杨丞琳',
-            cover:'http://o9vplcp9o.bkt.clouddn.com/cover.jpg'
+            cover:'https://o9vplcp9o.bkt.clouddn.com/cover.jpg'
         }
     ],
     //loop:true 是否单曲循环，选填
@@ -89,7 +89,7 @@ skPlayer({
 });
 //获取网易云歌单模式
 skPlayer({
-    music:317921676 //歌单id(登陆网页版网易云音乐，进入歌单详情后，在url中可找到歌单id，例：'http://music.163.com/#/playlist?id=317921676'),
+    music:317921676 //歌单id(登陆网页版网易云音乐，进入歌单详情后，在url中可找到歌单id，例：'https://music.163.com/#/playlist?id=317921676'),
     theme:'red'
 });
 ```

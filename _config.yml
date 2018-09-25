@@ -63,7 +63,7 @@ owner:
     ad-slot:
   bing-verify:
   github: jugetaozi #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  stackoverflow: #123456/username   from a "https://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
   instagram: #username

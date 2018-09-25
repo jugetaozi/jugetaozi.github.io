@@ -9,7 +9,7 @@ comments: true
 
 最近到处看到有人在说CSS3的[filter](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html)一直没有时间自己去测试这效果。今天终于抽出时间学习这个CSS3的**Filter**。不整不知道呀，一整才让我感到吃惊，太强大了。大家先来看个效果吧：
 
-[![img](http://www.w3cplus.com/sites/default/files/filter-demo.png)](http://jsfiddle.net/w3cplus/wThjx/)
+[![img](https://www.w3cplus.com/sites/default/files/filter-demo.png)](https://jsfiddle.net/w3cplus/wThjx/)
 
 我想光看上面的效果就能吸引你了，要是你自己动手的话，我想您更会感到神奇。细一看，这些效果就像是photoshop整出来的一样，其实是真是这样的，有很多效果都是类似于photoshop中的特效。不过有一点大家需要特别的注意：**此处的CSS3 filter和css filter完全是两样东东。更不是我们一直说的IE滤镜。具体所指的是什么？大家感兴趣的可以点击这里。**我就不多说了，因为说也说不清楚，我只想和大家一起探讨的是如何使用这个“CSS3 Filter”。那我们开始吧。
 
@@ -39,12 +39,12 @@ comments: true
 
 #### 浏览器的兼容性
 
-目前支持这个属性的浏览器少得可怜，现在只是webkit支持，而且只有[webkit nightly](http://nightly.webkit.org/)版本和[Chrome 18.0.976以上](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&ved=0CF8QFjAF&url=http%3A%2F%2Fwww.google.com%2Fchrome%2Fintl%2Fen%2Feula_dev.html&ei=GWD0Tq2hLovkrAfv3ojtDw&usg=AFQjCNFc6aJq0n3DNLjLkV2ArUF5r58pmA&sig2=rzPxXvCeMdRmC5wwhyYRsA)以上版本才支持，所以说，你要是想看到效果就需要下载这两个版本中的一个，我使用的是[Google Chrome Canary](http://tools.google.com/dlpage/chromesxs)。
+目前支持这个属性的浏览器少得可怜，现在只是webkit支持，而且只有[webkit nightly](https://nightly.webkit.org/)版本和[Chrome 18.0.976以上](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&ved=0CF8QFjAF&url=http%3A%2F%2Fwww.google.com%2Fchrome%2Fintl%2Fen%2Feula_dev.html&ei=GWD0Tq2hLovkrAfv3ojtDw&usg=AFQjCNFc6aJq0n3DNLjLkV2ArUF5r58pmA&sig2=rzPxXvCeMdRmC5wwhyYRsA)以上版本才支持，所以说，你要是想看到效果就需要下载这两个版本中的一个，我使用的是[Google Chrome Canary](https://tools.google.com/dlpage/chromesxs)。
 
 下面我们一起来见证这些效果的实现过程，首先在页面中有一张图片：
 
 ```
-      <img class="normal" title="normal" width="128" height="128" alt="HTML5 Logo" src="http://www.w3cplus.com/sites/default/files/filter.jpg" />
+      <img class="normal" title="normal" width="128" height="128" alt="HTML5 Logo" src="https://www.w3cplus.com/sites/default/files/filter.jpg" />
     
 ```
 
@@ -65,7 +65,7 @@ comments: true
 
 如果你在grayscale()中没有任何参数值，将会以“100%”渲染。其效果下图所示：
 
-[![img](http://www.w3cplus.com/sites/default/files/filter-grayscale.png)](http://jsfiddle.net/w3cplus/wThjx/)
+[![img](https://www.w3cplus.com/sites/default/files/filter-grayscale.png)](https://jsfiddle.net/w3cplus/wThjx/)
 
 #### 二、sepia
 
@@ -82,7 +82,7 @@ sepia不知道如何译，暂时就叫他“褐色”，使用这种效果，你
 
 如果你在sepia()中没有任参数值，将会以“100％”渲染，具体效果如下：
 
-[![img](http://www.w3cplus.com/sites/default/files/filter-sepia.png)](http://jsfiddle.net/w3cplus/wThjx/)
+[![img](https://www.w3cplus.com/sites/default/files/filter-sepia.png)](https://jsfiddle.net/w3cplus/wThjx/)
 
 #### 三、saturate饱和度
 
@@ -97,7 +97,7 @@ saturat是用来改变图片的饱和度
 
 **默认值：**100％，
 
-[![img](http://www.w3cplus.com/sites/default/files/filter-saturate.png)](http://jsfiddle.net/w3cplus/wThjx/)
+[![img](https://www.w3cplus.com/sites/default/files/filter-saturate.png)](https://jsfiddle.net/w3cplus/wThjx/)
 
 如果我们将其值变大到300%
 
@@ -108,7 +108,7 @@ saturat是用来改变图片的饱和度
     
 ```
 
-[![img](http://www.w3cplus.com/sites/default/files/filter-saturate2.png)](http://jsfiddle.net/w3cplus/wThjx/)
+[![img](https://www.w3cplus.com/sites/default/files/filter-saturate2.png)](https://jsfiddle.net/w3cplus/wThjx/)
 
 #### 四、hue-rotate色相旋转
 
@@ -123,7 +123,7 @@ hue-rotate用来改变图片的色相
 
 **默认值：**0deg
 
-[![img](http://www.w3cplus.com/sites/default/files/filter-hue-rotate.png)](http://jsfiddle.net/w3cplus/wThjx/)
+[![img](https://www.w3cplus.com/sites/default/files/filter-hue-rotate.png)](https://jsfiddle.net/w3cplus/wThjx/)
 
 #### 五、invert反色
 
@@ -138,7 +138,7 @@ invert做出来的效果就像是我们照相机底面的效果一样
 
 **默认值：**100％
 
-[![img](http://www.w3cplus.com/sites/default/files/filter-invert.png)](http://jsfiddle.net/w3cplus/wThjx/)
+[![img](https://www.w3cplus.com/sites/default/files/filter-invert.png)](https://jsfiddle.net/w3cplus/wThjx/)
 
 #### 六、opacity透明度
 
@@ -153,7 +153,7 @@ invert做出来的效果就像是我们照相机底面的效果一样
 
 **默认值：**100%
 
-[![img](http://www.w3cplus.com/sites/default/files/filter-opacity.png)](http://jsfiddle.net/w3cplus/wThjx/)
+[![img](https://www.w3cplus.com/sites/default/files/filter-opacity.png)](https://jsfiddle.net/w3cplus/wThjx/)
 
 #### 七、brightness亮度
 
@@ -168,7 +168,7 @@ invert做出来的效果就像是我们照相机底面的效果一样
 
 **默认值：**100％
 
-[![img](http://www.w3cplus.com/sites/default/files/filter-brightness.png)](http://jsfiddle.net/w3cplus/wThjx/)
+[![img](https://www.w3cplus.com/sites/default/files/filter-brightness.png)](https://jsfiddle.net/w3cplus/wThjx/)
 
 #### 八、contrast对比度
 
@@ -183,7 +183,7 @@ invert做出来的效果就像是我们照相机底面的效果一样
 
 **默认值：**100％
 
-[![img](http://www.w3cplus.com/sites/default/files/filter-contrast.png)](http://jsfiddle.net/w3cplus/wThjx/)
+[![img](https://www.w3cplus.com/sites/default/files/filter-contrast.png)](https://jsfiddle.net/w3cplus/wThjx/)
 
 #### 九、blur模糊
 
@@ -198,7 +198,7 @@ invert做出来的效果就像是我们照相机底面的效果一样
 
 **默认值：**0
 
-[![img](http://www.w3cplus.com/sites/default/files/filter-blur.png)](http://jsfiddle.net/w3cplus/wThjx/)
+[![img](https://www.w3cplus.com/sites/default/files/filter-blur.png)](https://jsfiddle.net/w3cplus/wThjx/)
 
 #### 十、drop-shadow阴影
 
@@ -211,7 +211,7 @@ invert做出来的效果就像是我们照相机底面的效果一样
     
 ```
 
-[![img](http://www.w3cplus.com/sites/default/files/filter-drop-shadow.png)](http://jsfiddle.net/w3cplus/wThjx/)
+[![img](https://www.w3cplus.com/sites/default/files/filter-drop-shadow.png)](https://jsfiddle.net/w3cplus/wThjx/)
 
 那么上面就是filter中的十种效果，当然大家可以根据自己的需求进行自定义：
 
@@ -222,16 +222,16 @@ invert做出来的效果就像是我们照相机底面的效果一样
     
 ```
 
-[![img](http://www.w3cplus.com/sites/default/files/filter-custom.png)](http://jsfiddle.net/w3cplus/wThjx/)
+[![img](https://www.w3cplus.com/sites/default/files/filter-custom.png)](https://jsfiddle.net/w3cplus/wThjx/)
 
 有关于CSS3的filter就简单的介绍到这里了，如果大家想更清楚的了解filter是神马，可以点击下面的扩展阅读：
 
-1. [Say Hello to Webkit Filters](http://net.tutsplus.com/tutorials/html-css-techniques/say-hello-to-css3-filters/)
-2. [Quick Fun: CSS3 Filter Effects](http://girliemac.com/blog/2011/12/21/quick-fun-css3-filter-effects/)
+1. [Say Hello to Webkit Filters](https://net.tutsplus.com/tutorials/html-css-techniques/say-hello-to-css3-filters/)
+2. [Quick Fun: CSS3 Filter Effects](https://girliemac.com/blog/2011/12/21/quick-fun-css3-filter-effects/)
 3. [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html)
-4. [-webkit-filter是神马？](http://www.w3cplus.com/css3/http//www.qianduan.net/what-is-webkit-filter.html)
+4. [-webkit-filter是神马？](https://www.w3cplus.com/css3/http//www.qianduan.net/what-is-webkit-filter.html)
 
-大家还可以借助[Jeffrey](http://net.tutsplus.com/)写的一个[在线制作CSS3 Filter效果工具](http://jsbin.com/uziyih)。
+大家还可以借助[Jeffrey](https://net.tutsplus.com/)写的一个[在线制作CSS3 Filter效果工具](https://jsbin.com/uziyih)。
 
 今天我就说到这里了，希望大家喜欢这篇教程。
 

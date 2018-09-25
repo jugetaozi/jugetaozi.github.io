@@ -10,9 +10,9 @@ comments: true
 
 大学时期，我的专业是世界经济。那个专业需要学习《经济史》，了解古代的人们怎么挣钱和花钱。
 
-《经济史》的课程很[有趣](http://www.ruanyifeng.com/blog/2010/07/interesting_economic_history.html)，读完以后，看待历史的眼光会不一样。
+《经济史》的课程很[有趣](https://www.ruanyifeng.com/blog/2010/07/interesting_economic_history.html)，读完以后，看待历史的眼光会不一样。
 
-![img](http://www.ruanyifeng.com/blogimg/asset/2017/bg2017052101.jpg)
+![img](https://www.ruanyifeng.com/blogimg/asset/2017/bg2017052101.jpg)
 
 以前，我觉得政治最重要，决定了历史的变迁。学了《经济史》，我认识到，经济比政治更重要。政治人物只是舞台上的演员，剧情走向早由经济因素决定了。
 
@@ -20,7 +20,7 @@ comments: true
 
 举例来说，美国南北战争的根本原因就是经济。北方发展制造业，缺乏雇工，迫切希望南方种植园释放黑奴，让他们到工厂里面当工人。南方庄园主坚决不同意，一旦奴隶制度消失了，谁会愿意忍受烈日高温，到地里采棉花？如果棉花种植成本大幅上涨，就无法向欧洲出口，庄园主就会破产。
 
-![img](http://www.ruanyifeng.com/blogimg/asset/2017/bg2017052102.jpg)
+![img](https://www.ruanyifeng.com/blogimg/asset/2017/bg2017052102.jpg)
 
 再比如，大明王朝的灭亡原因也是经济。历史学家黄仁宇[指出](https://book.douban.com/review/5700560/)，明朝财政非常困难，根本无力抵抗各种入侵。
 
@@ -76,17 +76,17 @@ comments: true
 
 很多我们习以为常的事情，都已经完全改变了。15年前，世界市值最大的前五大公司只有一家技术公司，今天已经全部是了。新技术创造了财富，财富也在流向技术。
 
-![img](http://www.ruanyifeng.com/blogimg/asset/2017/bg2017052103.jpg)
+![img](https://www.ruanyifeng.com/blogimg/asset/2017/bg2017052103.jpg)
 
 中国也是如此，2017年中国市值最大的公司，是香港上市的腾讯，第二名是美国上市的阿里巴巴。曾经的巨无霸----中国石油、工商银行、中国移动----都被挤到后面去了。
 
-![img](http://www.ruanyifeng.com/blogimg/asset/2017/bg2017052204.png)
+![img](https://www.ruanyifeng.com/blogimg/asset/2017/bg2017052204.png)
 
 时代已经变了，新人和新公司每天都在崛起，旧的公司和制度每天都在没落。技术正在加速重塑人类社会。
 
 7、
 
-![img](http://www.ruanyifeng.com/blogimg/asset/2017/bg2017052105.jpg)
+![img](https://www.ruanyifeng.com/blogimg/asset/2017/bg2017052105.jpg)
 
 以色列学者尤瓦尔·赫拉利在《未来简史》一书中感叹：
 
@@ -100,9 +100,9 @@ comments: true
 
 > "一想到我的寿命只有几十年，我就感到特别难过。倒不是因为我害怕死亡，而是因为我将没有机会看到，未来一千年中各种新奇有趣的新技术。"
 
-另一方面，我还有一种不好的预感。人类掌握的技术，已经强大到足以毁灭人类自身，在技术面前，普通人（大多数人都是普通人）已经[没有多大用处](http://www.ruanyifeng.com/blog/2016/08/useless-people.html)了。人类的历史将会怎样改变？这不禁令人充满了在劫难逃的担忧。
+另一方面，我还有一种不好的预感。人类掌握的技术，已经强大到足以毁灭人类自身，在技术面前，普通人（大多数人都是普通人）已经[没有多大用处](https://www.ruanyifeng.com/blog/2016/08/useless-people.html)了。人类的历史将会怎样改变？这不禁令人充满了在劫难逃的担忧。
 
-（正文完）转载自[阮一峰](http://www.ruanyifeng.com/blog/2017/07/working-poor.html)
+（正文完）转载自[阮一峰](https://www.ruanyifeng.com/blog/2017/07/working-poor.html)
 
 ## 赞助
 
