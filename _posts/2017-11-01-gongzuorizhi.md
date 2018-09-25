@@ -187,7 +187,7 @@ stepDetail.age = 20  // console.log('stepDetail属性改变了')
 
 ---
 
-(正文完)商业转载请联系作者获得授权,非商业转载请注明[出处](http://www.jugetaozi.com/blog/gulp-info/)。
+(正文完)商业转载请联系作者获得授权,非商业转载请注明[出处](https://www.jugetaozi.com/blog/gulp-info/)。
 
 ## 最后说几句
 

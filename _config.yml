@@ -6,7 +6,7 @@
 title:       "举个桃子的个人小站"
 description: "WuDi's Blog. A front-end web developer. Working for ArchForce in Shenzhen, China."
 keywords: "吴迪、举个桃子、举个桃子的小站、jugetaozi、wudi、Wudi's Blog、Front-End Engineer、举个桃子的个人小站"
-url: http://www.jugetaozi.com # the base hostname & protocol for your site 
+url: https://www.jugetaozi.com # the base hostname & protocol for your site
 ###################################
 # Jekyll configuration
 ####################################
@@ -39,7 +39,7 @@ sass:
 # loading
 ####################################
 #
-loading: "http://www.jugetaozi.com/img/loading.gif"
+loading: "https://www.jugetaozi.com/img/loading.gif"
 
 #
 ###################################
