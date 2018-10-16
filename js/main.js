@@ -228,9 +228,8 @@ $(function () {
     ;
     (function (window) {
         var playStart = null;
-        
+
         $('#musicSwitch').on('click', function () {
-            window.sessionStorage.setItem('playSession', 'true');
             $(this).hasClass('active') ? $(this).removeClass('active') : $(this).addClass('active');
             // 点击播放
             if (!$('#skPlayer').find('audio').length) {
@@ -245,15 +244,15 @@ $(function () {
             clearTimeout(playStart);
         });
         //第一次进入的时候模拟点击
-        if (window.sessionStorage.getItem('playSession') == undefined) {
+        if (window.sessionStorage.getItem('playSessionSave') === window.location.pathname) {
             $('#musicSwitch').trigger('click');
-            playStart=setTimeout(function (){
+            playStart = setTimeout(function () {
                 $('#musicSwitch').trigger('click');
-            },5000)
+            }, 5000)
         }
     }(window));
 
-    
+
     // 图片延迟加载
     $("img.lazy").unveil(1000);
     $('.post-listing').scroll(function () {
@@ -285,4 +284,8 @@ $(function () {
             $("#runningTime").text(DD + '天' + HH + '小时' + MM + '分' + SS + '秒');
         }
     }())
+
+    //记住当前pathname
+    window.sessionStorage.setItem('playSessionSave', window.location.pathname);
+
 });
