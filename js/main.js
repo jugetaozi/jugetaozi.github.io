@@ -244,8 +244,13 @@ $(function () {
             clearTimeout(playStart);
         });
         //第一次进入的时候模拟点击
+        console.log(window.sessionStorage.getItem('playSessionSave'), window.location.pathname);
         if (window.sessionStorage.getItem('playSessionSave') === window.location.pathname) {
             $('#musicSwitch').trigger('click');
+            playStart = setTimeout(function () {
+                $('#musicSwitch').trigger('click');
+            }, 5000)
+        } else {
             playStart = setTimeout(function () {
                 $('#musicSwitch').trigger('click');
             }, 5000)
