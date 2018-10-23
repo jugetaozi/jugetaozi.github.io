@@ -244,13 +244,18 @@ $(function () {
             clearTimeout(playStart);
         });
         //第一次进入的时候模拟点击
-        console.log(window.sessionStorage.getItem('playSessionSave'), window.location.pathname);
-        if (window.sessionStorage.getItem('playSessionSave') === window.location.pathname) {
-            $('#musicSwitch').trigger('click');
+        var sessionSave = window.sessionStorage.getItem('playSessionSave')
+        if (sessionSave && (sessionSave !== window.location.pathname)) {
+            //     //如果访问过并且路径不相等  则延缓加载
             playStart = setTimeout(function () {
                 $('#musicSwitch').trigger('click');
-            }, 5000)
+                playStart = setTimeout(function () {
+                    $('#musicSwitch').trigger('click');
+                }, 5000)
+            }, 3000)
         } else {
+            //第一次访问 立马加载
+            $('#musicSwitch').trigger('click');
             playStart = setTimeout(function () {
                 $('#musicSwitch').trigger('click');
             }, 5000)
