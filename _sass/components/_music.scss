@@ -2,8 +2,24 @@
   z-index:7777;
   position:relative;
   display:none;
+
   @include media-query($small-screen) {
     display:block;
+  }
+  @media screen and (min-width:300px) and (max-width:600px){
+    display:block;
+    #skPlayer{
+      width: 270px;
+    }
+    .skPlayer-list-on{
+      width: 270px;
+    }
+    .skPlayer-control{
+      width: 140px !important;
+    }
+    .skPlayer-percent{
+      width: 140px !important;
+    }
   }
 }
 #musicSwitch{

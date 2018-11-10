@@ -228,7 +228,7 @@ $(function () {
     ;
     (function (window) {
         var playStart = null;
-
+        var playIncetance
         $('#musicSwitch').on('click', function () {
             $(this).hasClass('active') ? $(this).removeClass('active') : $(this).addClass('active');
             // 点击播放
@@ -240,6 +240,7 @@ $(function () {
                         source: 896988384
                     }
                 });
+                playIncetance = player
             }
             clearTimeout(playStart);
         });
@@ -248,11 +249,15 @@ $(function () {
         if (sessionSave && (sessionSave !== window.location.pathname)) {
             //     //如果访问过并且路径不相等  则延缓加载
             playStart = setTimeout(function () {
+                var Arr = [1, 2, 3, 4];
+                var index = Math.floor(Math.random() * Arr.length + 1) - 1;
+                console.log(index);
                 $('#musicSwitch').trigger('click');
                 playStart = setTimeout(function () {
                     $('#musicSwitch').trigger('click');
-                }, 5000)
-            }, 3000)
+                    playIncetance.switchMusic(Arr[index]);
+                }, 2000)
+            }, 4000)
         } else {
             //第一次访问 立马加载
             $('#musicSwitch').trigger('click');
@@ -297,5 +302,4 @@ $(function () {
 
     //记住当前pathname
     window.sessionStorage.setItem('playSessionSave', window.location.pathname);
-
 });
