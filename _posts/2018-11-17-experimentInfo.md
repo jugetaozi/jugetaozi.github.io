@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "欢迎来到我的小站"
+title: ""
 excerpt: ""
 categories: ""
 comments: true
