@@ -10,7 +10,7 @@ comments: true
 
 ![img](https://images2015.cnblogs.com/blog/746387/201705/746387-20170517165252353-879107278.png)
 
-1、攻击者通过评论表单提交将<script>alert(‘aaa’)</script>提交到网站
+1、攻击者通过评论表单提交将```<script>alert(‘aaa’)</script>```提交到网站
 
 2、网站后端对提交的评论数据不做任何操作，直接存储到数据库中
 
@@ -18,7 +18,7 @@ comments: true
 
 4、网站后端会从数据库中取出数据，直接返回给用户
 
-5、用户得到页面后，直接运行攻击者提交的代码<script>alert(‘aaa’)</script>，所有用户都会在网页中弹出aaa的弹窗
+5、用户得到页面后，直接运行攻击者提交的代码```<script>alert(‘aaa’)</script>```，所有用户都会在网页中弹出aaa的弹窗
 
 这种攻击方式恶意代码会被存储在数据库中，其他用户在正常访问的情况下，也有会被攻击，影响的范围比较大
 
@@ -30,7 +30,7 @@ comments: true
 
  ![img](https://images2015.cnblogs.com/blog/746387/201705/746387-20170517165337885-960461005.png)
 
-1、用户误点开了带攻击的url :http://xxx?keyword=<script>alert('aaa')</script>
+1、用户误点开了带攻击的url :http://xxx?keyword=```<script>alert('aaa')</script>```
 
 2、网站给受害者的返回中包含了来自URL的的恶意文本
 
@@ -46,7 +46,7 @@ comments: true
 
  ![img](https://images2015.cnblogs.com/blog/746387/201705/746387-20170517165408775-1101943332.png)
 
-1、用户误点开了带攻击的url :http://xxx?name=<script>alert('aaa')</script>
+1、用户误点开了带攻击的url :http://xxx?name=```<script>alert('aaa')</script>```
 
 2、网站给受害者的返回中正常的网页
 
