@@ -36,6 +36,13 @@
     padding:7px 17px;
     font-size:21px;
   }
+  em.cPagenation,a.cPagenation{
+    display: inline-block;
+    float: none;
+    padding:7px 7px;
+    font-size:21px;
+    margin: 0 auto;
+  }
   span{
     border: 1px solid #fff;
     &.left{

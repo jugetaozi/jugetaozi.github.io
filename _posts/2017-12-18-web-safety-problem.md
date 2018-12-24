@@ -28,7 +28,7 @@ comments: true
 
 我们来看下面这个场景
 
- ![img](https://images2015.cnblogs.com/blog/746387/201705/746387-20170517165337885-960461005.png)
+![img](https://images2015.cnblogs.com/blog/746387/201705/746387-20170517165337885-960461005.png)
 
 1、用户误点开了带攻击的url :http://xxx?keyword=```<script>alert('aaa')</script>```
 
