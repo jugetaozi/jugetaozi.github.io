@@ -2,7 +2,7 @@
  * @Author: 吴迪
  * @Date: 2021-07-02 21:00:16
  * @LastEditors: OBKoro1
- * @LastEditTime: 2021-07-02 21:03:50
+ * @LastEditTime: 2021-07-02 21:22:06
 -->
 ## 博客具体内容
 
@@ -28,4 +28,4 @@
 
 * 此时打开浏览器本地ip的4000端口,即可看到一个属于自己的简洁清爽的主题博客,接下来要做的就是打造一款属于自己的博客.
 
-2021/7/2 jugetaozi.github.io ==> jugetaozi.github.io
+2021/7/2 jugetaozi.github.io ==> jugetaozi.github.io   https://www.jugetaozi.github.io==>https://jugetaozi.github.io
