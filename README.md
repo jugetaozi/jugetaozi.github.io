@@ -1,3 +1,9 @@
+<!--
+ * @Author: 吴迪
+ * @Date: 2021-07-02 21:00:16
+ * @LastEditors: OBKoro1
+ * @LastEditTime: 2021-07-02 21:03:50
+-->
 ## 博客具体内容
 
 * 响应式设计,在pc\pad\phone上都有良好的表现.
@@ -6,7 +12,7 @@
 * 可使用第三方分享功能,如百度分享.
 * **最后** 如果有需要帮助的朋友可以[email](mailto:156343782@qq.com)或者star该repo,在issues下提出你遇到的问题.
 
-  See a [demo](https://www.jugetaozi.com/) hosted on GitHub.
+  See a [demo](https://www.jugetaozi.github.io/) hosted on GitHub.
 
 ## 快速开始
 
@@ -21,3 +27,5 @@
    `jekyll server`
 
 * 此时打开浏览器本地ip的4000端口,即可看到一个属于自己的简洁清爽的主题博客,接下来要做的就是打造一款属于自己的博客.
+
+2021/7/2 jugetaozi.github.io ==> jugetaozi.github.io
