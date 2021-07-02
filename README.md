@@ -2,9 +2,10 @@
  * @Author: 吴迪
  * @Date: 2021-07-02 21:00:16
  * @LastEditors: OBKoro1
- * @LastEditTime: 2021-07-02 21:22:06
+ * @LastEditTime: 2021-07-02 21:26:02
 -->
-## 博客具体内容
+## 博客具体内容 https://jugetaozi.github.io/
+## 个人简历 https://jugetaozi.github.io/resume/output/
 
 * 响应式设计,在pc\pad\phone上都有良好的表现.
 * 简洁的设计和简单的目录结构.
